@@ -4,7 +4,7 @@ class AuthStore {
     @observable username = 'admin';
 
     @action setUsername(username) {
-        this.values.username = username;
+        this.username = username;
     }
 }
 

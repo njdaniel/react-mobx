@@ -7,6 +7,6 @@ export default class Login extends Component {
     render() {
         const { AuthStore } = this.props
 
-        return <div>Username is {AuthStore.admin}</div>
+        return <div>Username is {AuthStore.username}</div>
     }
 }
